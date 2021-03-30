@@ -11,16 +11,21 @@ Directory Secure_Code contains the given c code with its vunrabilities.
 **How To Run The Application**
 
 Requirements:
+
     • Docker
     • JDK 15
     • Spring Boot Framework
+    
 Setup:
+
     1. Download & Install requirements
     2. Clone this repository
-    3. Start your docker application: <sudo systemctl start docker>
-    4. Run this command: <docker volume create –name=postgres_data>
-    5. Run this command inside your directory with cloned repository: <sudo docker-compose up>
+    3. Start your docker application: < sudo systemctl start docker >
+    4. Run this command: < docker volume create –name=postgres_data >
+    5. Run this command inside your directory with cloned repository: < sudo docker-compose up >
+    
 Running:
+
 	1. go to micro_focus_project and run:
 		< ./gradlew test >
 		< ./gradlew bootRun >
