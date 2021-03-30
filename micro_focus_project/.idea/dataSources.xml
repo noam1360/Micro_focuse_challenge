@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="phone_book@localhost" uuid="328e75f9-761c-4952-9d8c-1bd4a066c47e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/phone_book</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="micro_focus_project.main/Hibernate" uuid="f401292c-6c4f-412c-8813-e0c1acb5fc00">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/phone_book</jdbc-url>
+    </data-source>
+  </component>
+</project>

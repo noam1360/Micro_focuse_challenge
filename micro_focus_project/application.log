@@ -1,0 +1,60 @@
+2021-03-30 17:22:53.618  INFO 5558 --- [main] phoneBookApp.Application                 : Starting Application using Java 15.0.1 with PID 5558 (/home/nikki/IdeaProjects/MicroFocus/micro_focus_project/build/classes/java/main started by nikki in /home/nikki/IdeaProjects/MicroFocus/micro_focus_project)
+2021-03-30 17:22:53.620  INFO 5558 --- [main] phoneBookApp.Application                 : No active profile set, falling back to default profiles: default
+2021-03-30 17:22:54.108  INFO 5558 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-30 17:22:54.145  INFO 5558 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2021-03-30 17:22:54.489  INFO 5558 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-30 17:22:54.494  INFO 5558 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-30 17:22:54.494  INFO 5558 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-30 17:22:54.495  INFO 5558 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.3].
+2021-03-30 17:22:54.495  INFO 5558 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-30 17:22:54.495  INFO 5558 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-30 17:22:54.497  INFO 5558 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+2021-03-30 17:22:54.555  INFO 5558 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-30 17:22:54.555  INFO 5558 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 896 ms
+2021-03-30 17:22:54.667  INFO 5558 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-30 17:22:54.689  INFO 5558 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-30 17:22:54.746  INFO 5558 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-30 17:22:54.789  INFO 5558 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-30 17:22:54.830  INFO 5558 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-30 17:22:54.840  INFO 5558 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-03-30 17:22:55.126  INFO 5558 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-30 17:22:55.130  INFO 5558 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-30 17:22:55.324  WARN 5558 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-30 17:22:55.383  INFO 5558 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-30 17:22:55.492  INFO 5558 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-30 17:22:55.499  INFO 5558 --- [main] phoneBookApp.Application                 : Started Application in 2.544 seconds (JVM running for 3.295)
+2021-03-30 17:22:55.501  INFO 5558 --- [main] phoneBookApp.Application                 : Ending Application
+2021-03-30 17:23:07.415  INFO 5558 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-30 17:23:07.415  INFO 5558 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-30 17:23:07.417  INFO 5558 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-30 17:23:07.420  INFO 5558 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-03-30 17:23:40.323  INFO 5718 --- [main] phoneBookApp.Application                 : Starting Application using Java 15.0.1 with PID 5718 (/home/nikki/IdeaProjects/MicroFocus/micro_focus_project/build/classes/java/main started by nikki in /home/nikki/IdeaProjects/MicroFocus/micro_focus_project)
+2021-03-30 17:23:40.324  INFO 5718 --- [main] phoneBookApp.Application                 : No active profile set, falling back to default profiles: default
+2021-03-30 17:23:40.809  INFO 5718 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-30 17:23:40.848  INFO 5718 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2021-03-30 17:23:41.201  INFO 5718 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-30 17:23:41.207  INFO 5718 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-30 17:23:41.207  INFO 5718 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2021-03-30 17:23:41.208  INFO 5718 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.3].
+2021-03-30 17:23:41.209  INFO 5718 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-03-30 17:23:41.209  INFO 5718 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-03-30 17:23:41.211  INFO 5718 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1d  10 Sep 2019]
+2021-03-30 17:23:41.267  INFO 5718 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-30 17:23:41.267  INFO 5718 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 913 ms
+2021-03-30 17:23:41.376  INFO 5718 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-30 17:23:41.397  INFO 5718 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.29.Final
+2021-03-30 17:23:41.459  INFO 5718 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-30 17:23:41.505  INFO 5718 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-30 17:23:41.546  INFO 5718 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-30 17:23:41.557  INFO 5718 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-03-30 17:23:41.918  INFO 5718 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-30 17:23:41.924  INFO 5718 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-30 17:23:42.191  WARN 5718 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-30 17:23:42.277  INFO 5718 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-30 17:23:42.434  INFO 5718 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-30 17:23:42.445  INFO 5718 --- [main] phoneBookApp.Application                 : Started Application in 2.791 seconds (JVM running for 3.349)
+2021-03-30 17:23:42.446  INFO 5718 --- [main] phoneBookApp.Application                 : Ending Application
+2021-03-30 17:23:51.554  INFO 5718 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-30 17:23:51.555  INFO 5718 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-30 17:23:51.557  INFO 5718 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-03-30 17:23:51.560  INFO 5718 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

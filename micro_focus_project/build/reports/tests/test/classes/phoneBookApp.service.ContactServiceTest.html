@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ContactServiceTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ContactServiceTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/phoneBookApp.service.html">phoneBookApp.service</a> &gt; ContactServiceTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.063s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">create()</td>
+<td class="success">0.046s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">deleteById()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findAll()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">findByName()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>19:35:09.677 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+19:35:09.687 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+19:35:09.715 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [phoneBookApp.service.ContactServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+19:35:09.724 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [phoneBookApp.service.ContactServiceTest], using SpringBootContextLoader
+19:35:09.727 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [phoneBookApp.service.ContactServiceTest]: class path resource [phoneBookApp/service/ContactServiceTest-context.xml] does not exist
+19:35:09.728 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [phoneBookApp.service.ContactServiceTest]: class path resource [phoneBookApp/service/ContactServiceTestContext.groovy] does not exist
+19:35:09.728 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [phoneBookApp.service.ContactServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+19:35:09.729 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [phoneBookApp.service.ContactServiceTest]: ContactServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:35:09.773 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [phoneBookApp.service.ContactServiceTest]
+19:35:09.836 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/nikki/IdeaProjects/MicroFocus/micro_focus_project/build/classes/java/main/phoneBookApp/Application.class]
+19:35:09.837 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration phoneBookApp.Application for test class phoneBookApp.service.ContactServiceTest
+19:35:09.919 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [phoneBookApp.service.ContactServiceTest]: using defaults.
+19:35:09.919 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+19:35:09.935 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@77dfae78, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@53615496, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@46a42ced, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7b3d819a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@711b5ceb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@288773ba, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4f23f103, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5805982c, org.springframework.test.context.event.EventPublishingTestExecutionListener@73526bc3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@605bccb0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@30a09251, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4410b891, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@247cdfa3, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1a7cb9d0, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2efa82d4]
+19:35:09.938 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1c9475c3 testClass = ContactServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@571ec727 testClass = ContactServiceTest, locations = '{}', classes = '{class phoneBookApp.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@31d1ec87, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@11cce763, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6c7621d2, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@6c76fbc6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@67d9ba4c, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3c313c79, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@52496096], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+19:35:09.963 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.4)
+
+[2021-03-30T19:35:10.010Z] [org.springframework.boot.StartupInfoLogger] [Test worker] [55] [INFO ] Starting ContactServiceTest using Java 11.0.9.1 with PID 6234 (started by nikki in /home/nikki/IdeaProjects/MicroFocus/micro_focus_project)
+[2021-03-30T19:35:10.010Z] [org.springframework.boot.SpringApplication] [Test worker] [662] [INFO ] No active profile set, falling back to default profiles: default
+[2021-03-30T19:35:11.011Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [Test worker] [128] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-03-30T19:35:11.011Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [Test worker] [188] [INFO ] Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+[2021-03-30T19:35:12.012Z] [com.zaxxer.hikari.HikariDataSource] [Test worker] [110] [INFO ] HikariPool-1 - Starting...
+[2021-03-30T19:35:12.012Z] [com.zaxxer.hikari.pool.PoolBase] [Test worker] [535] [INFO ] HikariPool-1 - Driver does not support get/set network timeout for connections. (Receiver class org.h2.jdbc.JdbcConnection does not define or inherit an implementation of the resolved method 'abstract int getNetworkTimeout()' of interface java.sql.Connection.)
+[2021-03-30T19:35:12.012Z] [com.zaxxer.hikari.HikariDataSource] [Test worker] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-03-30T19:35:12.012Z] [org.hibernate.jpa.internal.util.LogHelper] [Test worker] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-03-30T19:35:12.012Z] [org.hibernate.Version] [Test worker] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.29.Final
+[2021-03-30T19:35:12.012Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [Test worker] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-03-30T19:35:12.012Z] [org.hibernate.dialect.Dialect] [Test worker] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2021-03-30T19:35:12.012Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [Test worker] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-03-30T19:35:12.012Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Test worker] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-03-30T19:35:13.013Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [Test worker] [221] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-03-30T19:35:13.013Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Test worker] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-03-30T19:35:13.013Z] [org.springframework.boot.StartupInfoLogger] [Test worker] [61] [INFO ] Started ContactServiceTest in 3.772 seconds (JVM running for 4.874)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.3</a> at Mar 30, 2021, 7:35:15 PM</p>
+</div>
+</div>
+</body>
+</html>
